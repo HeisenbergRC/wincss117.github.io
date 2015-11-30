@@ -1,24 +1,33 @@
 body{
-  background-image: url("img/Windows95.jpg");
+  background-image: url("img/Windows95.png");
+  background-position:center top;
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+  background-size: 100% 100%;
 }
-.icoYa{
+
+#icoYa{
   width: 90px;
   height: 55px;
-  margin-top: 450px;
+  margin-top: 50px;
+  margin-left: 50px;
 }
 #icoFl{
   width: 90px;
   height: 55px;
-  margin-top: 10px;
+  margin-left: 50px;
+
 }
 
 #icoMa{
   width: 90px;
   height: 55px;
-  margin-top: 10px;
+  margin-left: 50px;
+
 }
 #icoRy{
   width: 90px;
   height: 55px;
-  margin-top: 10px;
+  margin-left: 50px;
+
 }
