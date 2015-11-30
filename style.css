@@ -1,8 +1,24 @@
 body{
   background-image: url("img/Windows95.jpg");
 }
-#icoYa{
-  box-sizing: border-box 3px solid black;
+.icoYa{
   width: 90px;
   height: 55px;
+  margin-top: 450px;
+}
+#icoFl{
+  width: 90px;
+  height: 55px;
+  margin-top: 10px;
+}
+
+#icoMa{
+  width: 90px;
+  height: 55px;
+  margin-top: 10px;
+}
+#icoRy{
+  width: 90px;
+  height: 55px;
+  margin-top: 10px;
 }
