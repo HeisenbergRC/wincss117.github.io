@@ -1,33 +1,53 @@
 body{
-  background-image: url("img/Windows95.png");
+  background-image: url("img/windows.jpg");
   background-position:center top;
 	background-attachment:fixed;
 	background-repeat:no-repeat;
   background-size: 100% 100%;
 }
+#mycomputer{
+  width: 90px;
+  height: 30px;
+  margin-top: 60px;
+  margin-left:3.8%;
+text-align: center;
 
-#icoYa{
-  width: 90px;
-  height: 55px;
-  margin-top: 50px;
-  margin-left: 50px;
 }
+#icoYa{
+  width: 0px;
+  height: 30px;
+  margin-left:5%;
+margin-top: 90px;
+
+}
+
 #icoFl{
-  width: 90px;
-  height: 55px;
-  margin-left: 50px;
+  width: 0px;
+  height: 30px;
+  margin-left: 5%;
+margin-top: 80px;
 
 }
 
 #icoMa{
-  width: 90px;
-  height: 55px;
-  margin-left: 50px;
+  width: 0px;
+  height: 40px;
+  margin-left:5%;
+margin-top: 80px;
+text-align: center;;
 
 }
 #icoRy{
+  width: 0px;
+  height: 55px;
+  margin-left:5%;
+margin-top: 70px;
+
+}
+#corbeille{
   width: 90px;
   height: 55px;
-  margin-left: 50px;
-
+  margin-left: 90%;
+  margin-top: 10%;
+text-align: center;
 }
