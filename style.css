@@ -1,15 +1,21 @@
+html, body{
+  height: 100%;
+  width: 100%;
+}
+
 body{
-  background-image: url("img/windows.jpg");
+  background-image: url("img/windows2.png");
   background-position:center top;
 	background-attachment:fixed;
 	background-repeat:no-repeat;
   background-size: 100% 100%;
 }
-#mycomputer{
+.row{
   width: 90px;
-  height: 30px;
-  margin-top: 60px;
+  height: 50%;
+  margin-top: 100px;
   margin-left:3.8%;
+<<<<<<< HEAD
 text-align: center;
 
 }
@@ -42,29 +48,20 @@ margin-top: 80px;
 {
       padding-top: 45px;
   padding-left:5.0%;
+=======
+  text-align: center;
 }
 
-#icoMa{
-  width: 0px;
-  height: 40px;
-  margin-left:5%;
-margin-top: 80px;
-text-align: center;;
 
+.bloc-img{
+  height :20%;
+>>>>>>> 69dca3960e98c704c4f38321c609fd9108a62b47
 }
-#icoRy{
-  width: 0px;
-  height: 55px;
-  margin-left:5%;
-margin-top: 70px;
-
+.bloc-img img{
+  height: 100%;
 }
-#corbeille{
-  width: 90px;
-  height: 55px;
-  margin-left: 90%;
-  margin-top: 10%;
-text-align: center;
+img{
+  
 }
 
 
