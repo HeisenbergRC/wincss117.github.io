@@ -6,21 +6,60 @@
   <title>WinCSS 117</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/   zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="style.css">
-  <script>
-  function pop() {
-window.open('pop','height=200px,width=200px,top=200px,left=200px,resible=no');
-}
-</script>
+
 </head>
 <body>
     <div class="col-lg-1">
 
     <div class="row" id="mycomputer">
-      <img src="http://img15.hostingpics.net/pics/901899computer.png"/>Poste de Travail</div>
-      <div class="row" id="icoYa"><a href="https://www.google.fr/" onClick="pop()">
-        <img src="http://img15.hostingpics.net/pics/478968tete.png"/> </a>Yannic</div>
+      <img src="http://img15.hostingpics.net/pics/901899computer.png"/></div>
+      <!-- testpopup -->
+      <div class="popComputer">
+   <label for="modalCheck6">Poste de travail</label> <input type="checkbox" id="modalCheck6" />
+   <div id="overlay6">
+       <div class="popup_block">
+           <label for="modalCheck6"><img alt="Fermer" title="Fermer la fenêtre" class="my_btn_close" src="./images/close_pop.png" /></label>
+           <h2>Poste de travail</h2>
+           <p>Flavien le beau goss.</p>
+           <p>Veniam tincidunt augue abluo vero, augue nisl melior quidem secundum nobis singularis eum eum.</p>        </div>
+   </div>
+</div>
+  </div>
+  <!-- // fin popup -->
+
+      <div class="row" id="icoYa"><a href="https://www.google.fr/">
+        <img src="http://img15.hostingpics.net/pics/478968tete.png"/> </a></div>
+
+        <!-- Debut du popup icoYa-->
+              <div class="popYa">
+   <label for="modalCheck6">Yannic</label> <input type="checkbox" id="modalCheck6" />
+   <div id="overlay6">
+       <div class="popup_block">
+           <label for="modalCheck6"><img alt="Fermer" title="Fermer la fenêtre" class="my_btn_close" src="./images/close_pop.png" /></label>
+           <h2>Yannic</h2>
+           <p>Flavien le beau goss.</p>
+           <p>Veniam tincidunt augue abluo vero, augue nisl melior quidem secundum nobis singularis eum eum.</p>        </div>
+   </div>
+</div>
+  </div>
+<!-- Fin du popup -->
       <div class="row" id="icoFl"> <a href="https://www.google.fr/">
-        <img src="http://img15.hostingpics.net/pics/478968tete.png"/> </a>Flavien</div>
+        <img src="http://img15.hostingpics.net/pics/478968tete.png"/> </a></div>
+
+<!-- debut du popup icoFl -->
+      <div class="Flavien">
+   <label for="modalCheck6"></label> <input type="checkbox" id="modalCheck6" />
+   <div id="overlay6">
+       <div class="popup_block">
+           <label for="modalCheck6"><img alt="Fermer" title="Fermer la fenêtre" class="my_btn_close" src="./images/close_pop.png" /></label>
+           <h2>Flavien</h2>
+           <p>Flavien le beau goss.</p>
+           <p>Veniam tincidunt augue abluo vero, augue nisl melior quidem secundum nobis singularis eum eum.</p></div>
+   </div>
+</div>
+  </div>
+  <!-- Fin du popup -->
+
       <div class="row" id="icoMa"> <a href="https://www.google.fr/">
         <img src="http://img15.hostingpics.net/pics/478968tete.png"/> </a>Marc</div>
       <div class="row" id="icoRy"> <a href="https://www.google.fr/">
@@ -28,6 +67,8 @@ window.open('pop','height=200px,width=200px,top=200px,left=200px,resible=no');
       <div class="row" id="corbeille">
         <img src="http://img15.hostingpics.net/pics/578827corbeill.png"/>Corbeille</div>
 
-  </div>
+
+
 
 </body>
+
