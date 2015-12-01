@@ -1,53 +1,30 @@
+html, body{
+  height: 100%;
+  width: 100%;
+}
+
 body{
-  background-image: url("img/windows.jpg");
+  background-image: url("img/windows2.png");
   background-position:center top;
 	background-attachment:fixed;
 	background-repeat:no-repeat;
   background-size: 100% 100%;
 }
-#mycomputer{
+.row{
   width: 90px;
-  height: 30px;
-  margin-top: 60px;
+  height: 50%;
+  margin-top: 100px;
   margin-left:3.8%;
-text-align: center;
-
-}
-#icoYa{
-  width: 0px;
-  height: 30px;
-  margin-left:5%;
-margin-top: 90px;
-
+  text-align: center;
 }
 
-#icoFl{
-  width: 0px;
-  height: 30px;
-  margin-left: 5%;
-margin-top: 80px;
 
+.bloc-img{
+  height :20%;
 }
-
-#icoMa{
-  width: 0px;
-  height: 40px;
-  margin-left:5%;
-margin-top: 80px;
-text-align: center;;
-
+.bloc-img img{
+  height: 100%;
 }
-#icoRy{
-  width: 0px;
-  height: 55px;
-  margin-left:5%;
-margin-top: 70px;
-
-}
-#corbeille{
-  width: 90px;
-  height: 55px;
-  margin-left: 90%;
-  margin-top: 10%;
-text-align: center;
+img{
+  
 }
