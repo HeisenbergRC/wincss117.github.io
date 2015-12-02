@@ -57,9 +57,10 @@ p{
 }
 .popup_block{
   display: none; /*--masqué par défaut--*/
-  background: #fff;
+  background: black;
+  color:white;
   padding: 20px;
-  border: 20px solid #ddd;
+  border: 2px solid black;
   float: left;
   font-size: 1.2em;
   position: fixed;
@@ -72,10 +73,11 @@ p{
   /*--Coins arrondis en CSS3--*/
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
-  border-radius: 10px;
+  border-radius: 1px;
 }
 img.btn_close {
   float: right;
-  margin: -55px -55px 0 0;
+  width: 543px;
+  margin:-36px -20px 0 0;
 }
 /* */
