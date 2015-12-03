@@ -18,7 +18,6 @@ body{
 .row{
   width: 100px;
   height: 40%;
-/*  margin-top: 100px;*/
   margin-left:3.8%;
 }
 p{
@@ -46,8 +45,9 @@ p{
   margin-bottom: 10px;
 }
 .barre{
-  margin-bottom: -290px;
-  width:1535px;
+  margin-bottom: -300px;
+  width:100%;
+  height:auto;
 }
 
 a
@@ -57,7 +57,11 @@ a
   font-family: sans-serif;
 }
 
-/* Popup */ 
+.corbeille{
+  float: right;
+}
+
+/* Popup */
 #fade { /*--Masque opaque noir de fond--*/
   display: none; /*--masqué par défaut--*/
   background: #000;
@@ -88,6 +92,7 @@ a
 }
 img.btn_close {
   float: right;
+<<<<<<< HEAD
   max-width: 843px;
   margin:-36px -20px 0 0;
 }
@@ -101,3 +106,91 @@ img.btn_close {
   font-family: policeMsDos;
 }
 /* */
+=======
+  width: 800px;
+  height: 20%;
+  margin:-36px -20px 0 0;
+}
+/* */
+
+
+
+
+
+
+
+
+
+/*Menu Démarrer*/
+.nav-item {
+  display: block;
+  position: absolute;
+  display: inherit;
+  left: -999em;
+  z-index: 50;
+  background-color: grey;
+  opacity: 0.9;
+  border: 1px solid black;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  list-style: none;
+  font: serif 10px;
+  padding: 0 3;
+  left:5px;
+  bottom:15px;
+  width: 151px;
+  line-height: 1;
+}
+
+.nav-item ul{
+  list-style: none;
+  border-bottom: 1px grey solid;
+  padding: 1px;
+  left: 2px;
+}
+
+.nav-item li{
+  list-style: none;
+  color:black;
+  border-bottom: 1px grey solid;
+  padding: 2px 1px;
+  left: 5px;
+}
+
+.nav-item a {
+    display: block;
+    color: black;
+    background: white;
+    text-decoration: none;
+}
+
+.sub-nav {
+    display: none; /* Masque la sous-liste */
+    width: 150px;
+    left: 2px; /* FIX IE7 : pour que le sous-menu s’aligne avec son conteneur */
+    background: white; /* FIX IE7 : évite que la sous-liste ne disparaisse au moment où le curseur arrive au-dessus */
+}
+.nav-item:hover .sub-nav {
+    display: block; /* Affiche cette sous-liste au survol de son conteneur */
+}
+
+.menutitle{
+  margin:4px;
+  font-weight: bold;
+  left:2px;
+}
+
+.menudemarrer{
+  margin-top: 115px;
+  position: absolute;
+  bottom:0;
+  left:0;
+}
+
+li {padding:2px; }
+ul{margin:0 2;}
+
+.barre{
+  z-index: 1000;
+}
+>>>>>>> 3e21ca35ccdf81e1f3c2ea3dc66eeda8daeb1091
