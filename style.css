@@ -13,7 +13,6 @@ body{
 .row{
   width: 100px;
   height: 40%;
-/*  margin-top: 100px;*/
   margin-left:3.8%;
 }
 p{
@@ -41,8 +40,9 @@ p{
   margin-bottom: 10px;
 }
 .barre{
-  margin-bottom: -290px;
-  width:1535px;
+  margin-bottom: -300px;
+  width:100%;
+  height:auto;
 }
 
 a
@@ -52,7 +52,11 @@ a
   font-family: sans-serif;
 }
 
-/* Popup */ 
+.corbeille{
+  float: right;
+}
+
+/* Popup */
 #fade { /*--Masque opaque noir de fond--*/
   display: none; /*--masqué par défaut--*/
   background: #000;
@@ -83,7 +87,8 @@ a
 }
 img.btn_close {
   float: right;
-  width: 543px;
+  width: 800px;
+  height: 20%;
   margin:-36px -20px 0 0;
 }
 /* */
