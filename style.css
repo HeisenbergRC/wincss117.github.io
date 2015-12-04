@@ -92,7 +92,6 @@ a
 }
 img.btn_close {
   float: right;
-<<<<<<< HEAD
   max-width: 843px;
   margin:-36px -20px 0 0;
 }
@@ -105,13 +104,6 @@ img.btn_close {
 {
   font-family: policeMsDos;
 }
-/* */
-=======
-  width: 800px;
-  height: 20%;
-  margin:-36px -20px 0 0;
-}
-/* */
 
 
 
@@ -193,4 +185,3 @@ ul{margin:0 2;}
 .barre{
   z-index: 1000;
 }
->>>>>>> 3e21ca35ccdf81e1f3c2ea3dc66eeda8daeb1091
