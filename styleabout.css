@@ -2,7 +2,7 @@ body{
   color: white;
   background-color: #007F80;
   text-align: center;
-  
+
 }
 .bordure{
   margin-left: auto;
@@ -54,8 +54,10 @@ margin-top: 10px;
   margin-right: 3%;
 }
 #css{
-  height: 450px;
+  height: 350px;
+  width: 100%;
 }
-#simplonimg{
-  height: 50%;
+#simplonimg,#centrale{
+  height: 350px;
+  width: 100%;
 }
